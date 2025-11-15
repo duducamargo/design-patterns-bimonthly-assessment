@@ -1,0 +1,103 @@
+#######################################
+# JAVA BUILD
+#######################################
+
+# Arquivos compilados
+**/*.class
+
+# Logs da JVM
+hs_err_pid*
+replay_pid*
+
+#######################################
+# BUILD OUTPUT
+#######################################
+
+# Maven
+**/target/
+**/pom.xml.tag
+**/pom.xml.releaseBackup
+**/pom.xml.versionsBackup
+**/pom.xml.next
+**/release.properties
+
+# Gradle
+**/.gradle/
+**/build/
+!**/gradle/wrapper/gradle-wrapper.jar
+
+# Arquivos gerados (JAR/WAR/etc)
+**/*.jar
+**/*.war
+**/*.ear
+**/*.zip
+**/*.tar.gz
+**/*.rar
+
+#######################################
+# DEPENDÊNCIAS LOCAIS
+#######################################
+
+# Ignora qualquer pasta lib/ em qualquer subprojeto
+**/lib/
+
+#######################################
+# AMBIENTE DE DESENVOLVIMENTO (IDEs)
+#######################################
+
+# IntelliJ IDEA
+**/.idea/
+**/*.iml
+**/*.iws
+**/*.ipr
+**/out/
+
+# Eclipse
+**/.project
+**/.classpath
+**/.cproject
+**/.settings/
+**/bin/
+**/tmp/
+
+# NetBeans
+**/nbproject/private/
+**/nbbuild/
+**/dist/
+**/nbdist/
+**/.nb-gradle/
+
+# VSCode
+**/.vscode/
+
+#######################################
+# SISTEMAS OPERACIONAIS
+#######################################
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Linux arquivos temporários
+*~
+
+#######################################
+# ARQUIVOS DE CONFIGURAÇÃO, LOGS, TEMP
+#######################################
+
+# env
+.env
+.env.*
+**/*.env
+**/*.env.*
+
+# Logs
+**/*.log
+
+# Arquivos temporários
+**/*.tmp
+**/*.swp
+**/*.swo
