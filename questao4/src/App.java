@@ -6,7 +6,6 @@ public class App {
 
         NFeDocumento doc = new NFeDocumento("<xml>NF-e</xml>", "NF12345");
 
-        // Exemplo: simulando falha em SEFAZ para acionar rollback do banco
         doc.setCertificadoValido(true);
         doc.setImpostosCorretos(true);
         doc.setRespostaSefazOk(false);
